@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/zootopia"
+        style="@style/CategoryStyle"
+        android:background="@color/category_zootopia"
+        android:text="@string/category_zootopia" />
+
+    <TextView
+        android:id="@+id/intro"
+        style="@style/CategoryStyle"
+        android:background="@color/category_intro"
+        android:text="@string/category_intro" />
+
+    <TextView
+        android:id="@+id/quiz"
+        style="@style/CategoryStyle"
+        android:background="@color/category_link"
+        android:text="@string/category_link" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/zootopia_menu"/>
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/ExitButtonStyle"
+        android:text="@string/exit" />
+
+</LinearLayout>

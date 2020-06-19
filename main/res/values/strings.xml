@@ -1,0 +1,103 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Zootopia Audio</string>
+
+    <!-- Category name for link [CHAR LIMIT=20] -->
+    <string name="category_link">Quiz</string>
+
+    <!-- Category name for introduction [CHAR LIMIT=20] -->
+    <string name="category_intro">Introduction</string>
+
+    <!-- Category name for zootopia [CHAR LIMIT=20] -->
+    <string name="category_zootopia">Zootopia</string>
+
+    <!-- Hint text display in the empty field [CHAR LIMIT=20] -->
+    <string name="answer">p***** *******</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="first_question">1. Read the sentence and fill in the blank.</string>
+
+    <!-- First sentence [CHAR LIMIT=20] -->
+    <string name="first_sentence">Young Judy wanted to become a\n_________ .</string>
+
+    <!-- Second question [CHAR LIMIT=20] -->
+    <string name="second_question">2. Choose answers for the fill in the blank.</string>
+
+    <!-- Second sentence [CHAR LIMIT=20] -->
+    <string name="second_sentence">In Zootopia, ____ and ____ live in harmony.</string>
+
+    <!-- Predators in Second question [CHAR LIMIT=20] -->
+    <string name="predators">predators</string>
+
+    <!-- Prey in Second question [CHAR LIMIT=20] -->
+    <string name="prey">prey</string>
+
+    <!-- Human beings in Second question [CHAR LIMIT=20] -->
+    <string name="human_beings">human beings</string>
+
+    <!-- Wizards in Second question [CHAR LIMIT=20] -->
+    <string name="wizards">wizards</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="third_question">3. Choose the right answer.</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="third_sentence">Officer Judy\'s first assignment was \n__________ .</string>
+
+    <!-- Parking duty in Second question [CHAR LIMIT=20] -->
+    <string name="parking_duty">parking duty</string>
+
+    <!-- Going undercover in Second question [CHAR LIMIT=20] -->
+    <string name="going_undercover">going undercover</string>
+
+    <!-- Voluntary work in Second question [CHAR LIMIT=20] -->
+    <string name="voluntary_work">voluntary work</string>
+
+    <!-- Traffic control in Second question [CHAR LIMIT=20] -->
+    <string name="traffic_control">traffic control</string>
+
+    <!-- Fourth question [CHAR LIMIT=20] -->
+    <string name="fourth_question">4. Choose the right answer.</string>
+
+    <!-- Fourth sentence [CHAR LIMIT=20] -->
+    <string name="fourth_sentence">Night Howler was a _______ .</string>
+
+    <!-- Lion in fourth question [CHAR LIMIT=20] -->
+    <string name="lion">lion</string>
+
+    <!-- Wolf in fourth question [CHAR LIMIT=20] -->
+    <string name="wolf">wolf</string>
+
+    <!-- Flower in fourth question [CHAR LIMIT=20] -->
+    <string name="flower">flower</string>
+
+    <!-- Fruit in fourth question [CHAR LIMIT=20] -->
+    <string name="fruit">fruit</string>
+
+    <!-- Text for the submit button [CHAR LIMIT=20] -->
+    <string name="submit">SUBMIT</string>
+
+    <!-- Text for the exit button [CHAR LIMIT=20] -->
+    <string name="exit">EXIT</string>
+
+    <!-- Right answer in first question [CHAR LIMIT=20] -->
+    <string name="answer_one">police officer</string>
+
+    <!-- Text for the song name [CHAR LIMIT=20] -->
+    <string name="song_name">Song Name</string>
+
+    <!-- Text for the artist name [CHAR LIMIT=20] -->
+    <string name="artist_name">Artist Name</string>
+
+    <!-- Text for the artist name [CHAR LIMIT=20] -->
+    <string name="default_duration">0:00</string>
+
+    <!-- Text for the introduction text [CHAR LIMIT=20] -->
+    <string name="intro_text">\tZootopia is a 2016 American 3D computer-animated comedy film
+        produced by Walt Disney Animation Studios and released by Walt Disney Pictures.\n\n
+    \tTaking place in the titular city where anthropomorphic mammals coexist,
+    it details the unlikely partnership between a rabbit police officer and a red fox con artist,
+        as they uncover a criminal conspiracy involving the disappearance of predators.</string>
+
+
+</resources>

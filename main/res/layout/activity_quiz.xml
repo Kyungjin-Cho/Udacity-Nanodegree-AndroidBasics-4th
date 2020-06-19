@@ -1,0 +1,131 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/first_question" />
+
+        <TextView
+            style="@style/FirstSentenceStyle"
+            android:text="@string/first_sentence"/>
+
+        <EditText
+            android:id="@+id/textAnswer"
+            style="@style/AnswerTextStyle"
+            android:hint="@string/answer" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/second_question"/>
+
+        <TextView
+            style="@style/SecondSentenceStyle"
+            android:text="@string/second_sentence"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/predators" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/prey" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/human_beings" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/wizards" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/third_question" />
+
+        <TextView
+            style="@style/ThirdSentenceStyle"
+            android:text="@string/third_sentence"/>
+
+        <RadioGroup
+            android:id="@+id/thirdQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question3"
+                style="@style/VerticalButtonStyle"
+                android:text="@string/parking_duty" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/going_undercover" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/voluntary_work" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/traffic_control" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/fourth_question" />
+
+        <TextView
+            style="@style/FourthSentenceStyle"
+            android:text="@string/fourth_sentence"/>
+
+        <RadioGroup
+            android:id="@+id/fourthQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/lion" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/wolf" />
+
+            <RadioButton
+                android:id="@+id/question4"
+                style="@style/VerticalButtonStyle"
+                android:text="@string/flower"/>
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/fruit"/>
+        </RadioGroup>
+
+        <Button
+            android:onClick="submitButton"
+            style="@style/SubmitButtonStyle"
+            android:text="@string/submit" />
+
+
+
+    </LinearLayout>
+</ScrollView>
