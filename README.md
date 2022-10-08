@@ -3,7 +3,7 @@
 This repository will be used for the '4th Project: Musical Structure App.'
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/56642855/194730522-d5a01ea2-ad63-4956-8bd9-81d15603baa6.gif", height="400px">
+<img src="https://user-images.githubusercontent.com/56642855/194730522-d5a01ea2-ad63-4956-8bd9-81d15603baa6.gif", height="450px">
 </p>
 
 ## Project Overview
