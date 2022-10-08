@@ -2,6 +2,10 @@
 ## by Kyungjin Cho
 This repository will be used for the '4th Project: Musical Structure App.'
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/56642855/194730522-d5a01ea2-ad63-4956-8bd9-81d15603baa6.gif">
+</p>
+
 ## Project Overview
 > This project is a chance for you to combine and practice everything you learned so far in this section of the Nanodegree program. You will be making the structure of a music app using Intents, New Activities, Arraylists, Loops and Custom Classes.  
 The goal is to design and layout the flow for the structure of a Music Player app. Note that for this project, the app does not actually need to play music.  
@@ -22,3 +26,4 @@ There are many music player apps, and they employ a wide variety of design choic
 - Creating your own Custom Class
 - Looping through an ArrayList
 - Populating a ListView or GridView with an ArrayAdapter
+
